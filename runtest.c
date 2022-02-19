@@ -173,7 +173,7 @@ int testCase(void) {
   // execute the student part
   gettimeofday(&t_start, NULL);
   //permissiblePointNum = asgn2a(points, &permissiblePoints, test.number, test.dim, threadNum);
-  char * pathBinYourProgram ="asgn2c";
+  char * pathBinYourProgram ="asgn1c";
   char * outputFilePath = "ret.pts";
 
   execYourMPIProgram(pathBinYourProgram, test.number, test.dim, pathDataset, outputFilePath, numNode);
